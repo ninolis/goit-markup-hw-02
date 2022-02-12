@@ -1,0 +1,211 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #000000;
+}
+
+.navigation-link {
+  color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
+}
+
+.contact-link {
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #2196f3;
+}
+
+.advantage-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-text {
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.activities-title {
+}
+
+.team-members-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.lower-block {
+  background-color: #2f303a;
+}
+
+.directions {
+  font-style: normal;
+}
+
+.place-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.place-link:hover,
+.place-link:focus {
+  color: #2196f3;
+}
+
+.direction-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.direction-link:hover,
+.direction-link:focus {
+  color: #2196f3;
+}
+
+.filter-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.project-category {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}

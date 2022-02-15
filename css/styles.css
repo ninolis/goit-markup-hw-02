@@ -9,7 +9,6 @@ ul {
 }
 
 .navigation {
-  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -18,8 +17,7 @@ ul {
 
 .logo {
   font-family: Raleway;
-  
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -58,7 +56,6 @@ ul {
 }
 
 .hero-title {
- 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -70,7 +67,6 @@ ul {
 }
 
 .hero-button {
- 
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -87,7 +83,6 @@ ul {
 }
 
 .advantages-title {
-  
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -107,7 +102,6 @@ ul {
 }
 
 .team-members-title {
-  
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -116,7 +110,6 @@ ul {
 }
 
 .team-title {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -139,11 +132,9 @@ ul {
 }
 
 .directions {
-  
 }
 
 .place-link {
-  
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -159,7 +150,6 @@ ul {
 }
 
 .direction-link {
-  
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -169,14 +159,12 @@ ul {
   text-decoration: none;
 }
 
-
 .direction-link:hover,
 .direction-link:focus {
   color: #2196f3;
 }
 
 .filter-button {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -195,7 +183,7 @@ ul {
 .project-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }

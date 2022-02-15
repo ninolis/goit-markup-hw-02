@@ -156,10 +156,8 @@ ul {
   background-color: #2f303a;
 }
 
-.directions {
-}
-
 .place-link {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -175,7 +173,6 @@ ul {
 }
 
 .direction-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */

@@ -194,12 +194,14 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background-color: #f5f4fa;
   cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 .project-title {

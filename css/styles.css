@@ -9,22 +9,23 @@ ul {
 }
 
 .navigation {
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .logo:hover,
@@ -34,6 +35,7 @@ ul {
 
 .navigation-link {
   color: #212121;
+  text-decoration: none;
 }
 
 .navigation-link:hover,
@@ -43,6 +45,7 @@ ul {
 
 .contact-link {
   color: #757575;
+  text-decoration: none;
 }
 
 .contact-link:hover,
@@ -55,10 +58,10 @@ ul {
 }
 
 .hero-title {
-  font-style: normal;
+ 
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -67,10 +70,10 @@ ul {
 }
 
 .hero-button {
-  font-style: normal;
+ 
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 187% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -83,18 +86,18 @@ ul {
   color: #2196f3;
 }
 
-.advantage-title {
-  font-style: normal;
+.advantages-title {
+  
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .advantage-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
@@ -104,19 +107,19 @@ ul {
 }
 
 .team-members-title {
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-title {
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -124,7 +127,7 @@ ul {
 
 .team-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -136,17 +139,18 @@ ul {
 }
 
 .directions {
-  font-style: normal;
+  
 }
 
 .place-link {
-  font-style: normal;
+  
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .place-link:hover,
@@ -155,14 +159,16 @@ ul {
 }
 
 .direction-link {
-  font-style: normal;
+  
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
+
 
 .direction-link:hover,
 .direction-link:focus {
@@ -170,10 +176,10 @@ ul {
 }
 
 .filter-button {
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -189,14 +195,14 @@ ul {
 .project-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2.0;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }
 
 .project-category {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: #757575;
@@ -204,7 +210,7 @@ ul {
 
 .project-description {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: #757575;

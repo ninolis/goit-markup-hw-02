@@ -75,12 +75,14 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: #2196f3;
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #2196f3;
+  color: #ffffff;
+  background-color: #188ce8;
 }
 
 .advantages-title {

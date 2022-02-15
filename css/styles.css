@@ -194,8 +194,10 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  /* not inherit from .body */
   background-color: #f5f4fa;
   cursor: pointer;
+  /* because pointer is not default value for bottons :) */
 }
 
 .filter-button:hover,
@@ -205,11 +207,12 @@ ul {
 }
 
 .project-title {
-  font-weight: bold;
+  /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+  /* color: #212121; - inherite from .body because text */
 }
 
 .project-category {

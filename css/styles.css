@@ -1,7 +1,15 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --secondary-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
 body {
-  font-family: Roboto, Arial, sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  /* some color: var(--secondary-color); */
 }
 
 ul {
@@ -15,13 +23,14 @@ ul {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
 .logo:hover,
 .logo:focus {
-  color: #000000;
+  color: #ff0000;
+  background-color: #d9d9d9;
 }
 
 .navigation-link {
@@ -29,13 +38,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .contact-link {
@@ -43,13 +52,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -64,7 +73,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .hero-button {
@@ -75,14 +84,14 @@ ul {
   /* identical to box height, or 187% */
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #ffffff;
+  color: var(--primary-white-color);
   background-color: #188ce8;
 }
 
@@ -93,7 +102,7 @@ ul {
   /* or 117% or 42px */
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #212121; - inherite from .body because text */
+  /* color: #212121; -->> var(--primary-text-color) - inherite from .body because text */
 }
 
 .advantage-title {
@@ -102,7 +111,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: #212121; - inherite from .body because text */
+  /* color: #212121; -->> var(--primary-text-color) - inherite from .body because text */
 }
 
 .advantage-text {
@@ -111,7 +120,7 @@ ul {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .activities-title {
@@ -149,27 +158,29 @@ ul {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .lower-block {
   background-color: #2f303a;
 }
 
-.place-link {
+.direction-list {
   font-style: normal;
-  font-weight: normal;
+}
+
+.place-link {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
 }
 
 .place-link:hover,
 .place-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .direction-link {
@@ -183,7 +194,7 @@ ul {
 
 .direction-link:hover,
 .direction-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .filter-button {
@@ -193,7 +204,7 @@ ul {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
   /* not inherit from .body */
   background-color: #f5f4fa;
   cursor: pointer;
@@ -202,8 +213,8 @@ ul {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
 }
 
 .project-title {
@@ -212,7 +223,7 @@ ul {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  /* color: #212121; - inherite from .body because text */
+  /* color: #212121; -->> var(--primary-text-color) - inherite from .body because text */
 }
 
 .project-category {
@@ -220,7 +231,7 @@ ul {
   line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .project-description {
@@ -228,5 +239,5 @@ ul {
   line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }

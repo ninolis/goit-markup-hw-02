@@ -68,7 +68,8 @@ ul {
 }
 
 .hero-button {
-  font-weight: bold;
+  font-weight: 700;
+  /* font-weight: 700; or bold */
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
@@ -86,15 +87,27 @@ ul {
 }
 
 .advantages-title {
-  font-weight: bold;
+  /* font-weight: 700; or bold - inherite from h2 default */
+  font-size: 36px;
+  line-height: 1.17;
+  /* or 117% or 42px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* color: #212121; - inherite from .body because text */
+}
+
+.advantage-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  /* color: #212121; - inherite from .body because text */
 }
 
 .advantage-text {
   font-size: 14px;
+  /* font-weight: 400; or normal - default (inherit from browser?)*/
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -102,14 +115,23 @@ ul {
 }
 
 .activities-title {
+  /* font-weight: 700; or bold - inherite from h2 default */
+  font-size: 36px;
+  line-height: 1.17;
+  /* or 117% or 42px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* color: #212121; - inherite from .body because text */
 }
 
 .team-members-title {
-  font-weight: bold;
+  /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 36px;
   line-height: 1.17;
+  /* or 117% or 42px */
   text-align: center;
   letter-spacing: 0.03em;
+  /* color: #212121; - inherite from .body because text */
 }
 
 .team-title {

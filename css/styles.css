@@ -69,7 +69,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
+  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ ul {
   /* font-weight: 700; or bold */
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 187% */
+  /* identical to box height, or 187% */
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
@@ -99,7 +99,7 @@ ul {
   /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 36px;
   line-height: 1.17;
-  /* or 117% or 42px */
+  /* or 117% or 42px */
   text-align: center;
   letter-spacing: 0.03em;
   /* color: #212121; -->> var(--primary-text-color) - inherite from .body because text */
@@ -118,7 +118,7 @@ ul {
   font-size: 14px;
   /* font-weight: 400; or normal - default (inherit from browser?)*/
   line-height: 1.71;
-  /* or 171% */
+  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -127,7 +127,7 @@ ul {
   /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 36px;
   line-height: 1.17;
-  /* or 117% or 42px */
+  /* or 117% or 42px */
   text-align: center;
   letter-spacing: 0.03em;
   /* color: #212121; - inherite from .body because text */
@@ -137,7 +137,7 @@ ul {
   /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 36px;
   line-height: 1.17;
-  /* or 117% or 42px */
+  /* or 117% or 42px */
   text-align: center;
   letter-spacing: 0.03em;
   /* color: #212121; - inherite from .body because text */
@@ -147,7 +147,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
+  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -155,7 +155,7 @@ ul {
 .team-position {
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
+  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);

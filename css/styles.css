@@ -1,8 +1,10 @@
 :root {
   --primary-text-color: #212121;
-  --secondary-text-color: #757575;
+  --secondary-grey-color: #757575;
   --secondary-color: #2196f3;
   --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --second-bg-color: #f5f4fa; /* var(second-bg-color) */
 }
 
 body {
@@ -13,7 +15,26 @@ body {
 }
 
 ul {
+  /* margin: 0; */
+  padding-left: 0;
+  /* list-style: none; */
+}
+
+button {
+  cursor: pointer;
+}
+
+/* img {
+  display: block;
+} */
+
+.list {
   list-style: none;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
 }
 
 .logo {
@@ -27,11 +48,20 @@ ul {
   text-decoration: none;
 }
 
-.logo:hover,
+/* top line: logo color (text Color) */
+.logo-span-topline {
+  color: var(--primary-black-color);
+}
+
+.logo-span-bottom {
+  color: var(--primary-white-color);
+}
+
+/*.logo:hover,
 .logo:focus {
   color: #ff0000;
   background-color: #d9d9d9;
-}
+}*/
 
 .navigation-link {
   font-weight: 500;
@@ -47,12 +77,16 @@ ul {
   color: var(--secondary-color);
 }
 
+.current-page {
+  color: var(--secondary-color);
+}
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-grey-color);
   text-decoration: none;
 }
 
@@ -120,7 +154,7 @@ ul {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-grey-color);
 }
 
 .activities-title {
@@ -132,6 +166,18 @@ ul {
   letter-spacing: 0.03em;
   /* color: #212121; - inherite from .body because text */
 }
+
+/* ------------ Team-Members ------------- */
+
+.team-members {
+  margin-bottom: 0;
+  background-color: var(--second-bg-color);
+  /* background-color: tan;  temp color */
+}
+
+/* .team-member {
+  background-color: ;
+} */
 
 .team-members-title {
   /* font-weight: 700; or bold - inherite from h2 default */
@@ -158,7 +204,7 @@ ul {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-grey-color);
 }
 
 .lower-block {
@@ -218,6 +264,7 @@ ul {
 }
 
 .project-title {
+  color: var(--primary-text-color);
   /* font-weight: 700; or bold - inherite from h2 default */
   font-size: 18px;
   line-height: 2;
@@ -231,7 +278,7 @@ ul {
   line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-grey-color);
 }
 
 .project-description {
@@ -239,5 +286,5 @@ ul {
   line-height: 1.88;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--secondary-grey-color);
 }
